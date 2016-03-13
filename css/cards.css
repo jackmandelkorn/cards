@@ -1,0 +1,167 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F0F0F0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6vh;
+  font-family: monospace;
+  color: #787878;
+  position: absolute;
+  bottom: 1.4vh;
+  left: 40vh;
+  cursor: default;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 2vh;
+  padding: 2vh;
+  color: #F0F0F0;
+  background-color: #e60000;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid #800000;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.15s;
+  position: absolute;
+  bottom: 1.4vh;
+}
+
+.button:hover {
+  background-color: #b30000;
+}
+
+.button-off {
+  font-family: monospace;
+  font-size: 2vh;
+  padding: 2vh;
+  color: #F0F0F0;
+  background-color: #606060;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid #202020;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.15s;
+  position: absolute;
+  bottom: 1.4vh;
+}
+
+.button-off:hover {
+  background-color: #404040;
+}
+
+.button-on {
+  font-family: monospace;
+  font-size: 2vh;
+  padding: 2vh;
+  color: #F0F0F0;
+  background-color: #e65c00;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid #803300;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.15s;
+  position: absolute;
+  bottom: 1.4vh;
+}
+
+.button-on:hover {
+  background-color: #b34700;
+}
+
+.card {
+  float: right;
+  text-align: center;
+  font-family: monospace;
+  font-size: 4vh;
+  padding: 4vh 0 4vh 0;
+  width: 10vh;
+  color: #F0F0F0;
+  background-color: #e60000;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid #800000;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+  margin: 1.4vh 1.4vh 0 0;
+}
+
+.card:hover {
+  background-color: #b30000;
+}
+
+.card-temp {
+  float: right;
+  text-align: center;
+  font-family: monospace;
+  font-size: 4vh;
+  padding: 4vh 0 4vh 0;
+  width: 10vh;
+  color: #F0F0F0;
+  background-color: #606060;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid 	#202020;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+  margin: 1.4vh 1.4vh 0 0;
+}
+
+#o-card {
+  float: right;
+  text-align: center;
+  font-family: monospace;
+  font-size: 4vh;
+  padding: 4vh 0 4vh 0;
+  width: 10vh;
+  color: #F0F0F0;
+  background-color: #e65c00;
+  outline: none;
+  border: none;
+  border-radius: 1.3vh;
+  border-bottom: 0.7vh solid #803300;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  bottom: 1.4vh;
+  right: 1.4vh;
+}
+
+#o-card:hover {
+  background-color: #b34700;
+}
+
+#b-shuffle {
+  left: 1.4vh;
+}
+#b-deal {
+  left: 14.6vh;
+}
+#b-restart {
+  left: 24.5vh;
+}
+#b-sort {
+  bottom: 9.6vh;
+  left: 1.4vh;
+}
+#b-smart {
+  bottom: 9.6vh;
+  left: 11.2vh;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cards</title>
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="shortcut icon" href="css/images/logo.png" />
+  <script src="js/cards.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+</head>
+<body class="unselectable">
+  <button id="b-shuffle" class="button" onclick="shuffle(cdeck)">SHUFFLE</button>
+  <button id="b-deal" class="button" onclick="deal(cdeck)">DEAL</button>
+  <button id="b-restart" class="button" onclick="restart()">RESTART</button>
+  <h1 id="scoreboard">YOU: 0  CPU: 0</h1>
+  <button id="o-card" onmouseover="showopp()" onmouseout="hideopp()">N/A</button>
+  <button id="b-sort" class="button" onclick="sortcards()">SORT</button>
+  <button id="b-smart" class="button-off" onclick="togglesmart()">SMART-CPU: OFF</button>
+</body>
+</html>
